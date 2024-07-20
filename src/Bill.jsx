@@ -9,6 +9,7 @@ function Bill({ bill, handleChange, handleSubmit }) {
           value={bill}
           onChange={handleChange}
         />
+        <button onSubmit={handleSubmit}>Add</button>
       </form>
     </div>
   );

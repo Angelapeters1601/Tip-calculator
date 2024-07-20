@@ -58,7 +58,7 @@ function App() {
         handleFriendTip={handleFriendTip}
       />
       <Output bill={submittedBill} total={total} averageTip={averageTip} />
-      <Reset handleReset={handleReset} />
+      <Reset handleReset={handleReset} bill={bill} />
     </>
   );
 }
