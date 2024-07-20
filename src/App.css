@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+  color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: cursive;
+}
+
+.form {
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.form h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input {
+  width: 200px;
+  padding: 7px;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.tip {
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.tip h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+select {
+  padding: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  outline: none;
+}
+
+option {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 3px;
+  background-color: rgb(186, 186, 197);
+}
+
+.output {
+  letter-spacing: 2px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border-radius: 7px;
+  padding: 8px;
+  width: 100px;
+  color: tan;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: tan;
+  color: black;
+  font-size: 22px;
+}
