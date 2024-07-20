@@ -5,6 +5,7 @@ function Tip({ tip, handleTip, friendTip, handleFriendTip }) {
         <h3>How did you like the service ? </h3>
         <select value={tip} onChange={handleTip}>
           <option value="">Select an option</option>
+          <option value="0">Dissatisfied 👎(0%)</option>
           <option value="5">Good 😊(5%)</option>
           <option value="10">It was Great 👍(10%)</option>
           <option value="15">Really Amazing 👏(15%)</option>
@@ -15,6 +16,7 @@ function Tip({ tip, handleTip, friendTip, handleFriendTip }) {
         <h3>How did your friend like the service ? </h3>
         <select value={friendTip} onChange={handleFriendTip}>
           <option>Select an option</option>
+          <option value="0">Dissatisfied 👎(0%)</option>
           <option value="5">Good 😊(5%)</option>
           <option value="10">It was Great 👍(10%)</option>
           <option value="15">Really Amazing 👏(15%)</option>
